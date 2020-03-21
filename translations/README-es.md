@@ -715,7 +715,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [ ] get_max   // Regresa el valor máximo almacenado en el árbol.
         - [ ] is_binary_search_tree
         - [ ] delete_value
-        - [ ] get_successor // Regresa el siguiente valor más alto en el árbol después del valor dado,-1 si no hay ning.
+        - [ ] get_successor // Regresa el siguiente valor más alto en el árbol después del valor dado,-1 si no hay ningún otro.
 
 - ### Montículo / Colas de Prioridad / Montículo binario
     - Visto como un árbol, pero usualmente es lineal en el almacenamiento (arreglo, lista enlazada)
@@ -735,21 +735,21 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] Implementar una  cola máxima:
         - [ ] insert
-        - [ ] sift_up – Necesario para el insert
-        - [ ] get_max – Regresa el máximo elemento, sin eliminarlo
-        - [ ] get_size() – Regresa el número de elementos almacenados
-        - [ ] is_empty() – Devuelve verdadero si la cola está vacía
-        - [ ] extract_max – Regresa el máximo elemento, eliminándolo
-        - [ ] sift_down – Necesario para extract_max
+        - [ ] sift_up – Necesario para el insert.
+        - [ ] get_max – Regresa el máximo elemento, sin eliminarlo.
+        - [ ] get_size() – Regresa el número de elementos almacenados.
+        - [ ] is_empty() – Devuelve verdadero si la cola está vacía.
+        - [ ] extract_max – Regresa el máximo elemento, eliminándolo.
+        - [ ] sift_down – Necesario para extract_max.
         - [ ] remove(i) – Elimina el elemento en el índice x
-        - [ ] heapify – Crea una cola de un arreglo de elementos, necesario para heap_sort
-        - [ ] heap_sort() – Toma un arreglo no ordenado y lo convierte en un arreglo ordenando en su lugar usando una cola máxima
+        - [ ] heapify – Crea una cola de un arreglo de elementos, necesario para heap_sort.
+        - [ ] heap_sort() – Toma un arreglo no ordenado y lo convierte en un arreglo ordenando en su lugar usando una cola máxima.
             - Nota: Usar una cola mínima reduciría operaciones, pero duplicaría el espacio necesario (No se puede hacer en lugar).
 
 ## Ordenamientos
 - [ ] Notas:
     - Implementar ordenamientos y conocer el mejor/peor de los casos y el promedio de complejidad de cada uno:
-        - No ordenamiento de burbuja - Es terrible - O(n^2), excepto cuando n <= 16
+        - No ordenamiento de burbuja - Es terrible - O(n^2), excepto cuando n <= 16.
     - [ ] Estabilidad en algoritmos de ordenamiento("¿Es Quicksort estable?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
@@ -798,9 +798,9 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
 - [ ] Implemente:
-    - [ ] Mergesort: O(n log n) Promedio y peor caso
-    - [ ] Quicksort O(n log n) Caso promedio
-    - El ordenamiento por selección y el de inserción ambos son O(n^2) Promedio y peor caso
+    - [ ] Mergesort: O(n log n) Promedio y peor caso.
+    - [ ] Quicksort O(n log n) Caso promedio.
+    - El ordenamiento por selección y el de inserción ambos son O(n^2) Promedio y peor caso.
     - Para ordenamientos por montículos, vea la estructura de datos de Colas o filas arriba.
 
 - [ ] No requeridos, pero los recomendaría:
@@ -830,8 +830,8 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
         - Matriz adyacente
         - Lista adyacente
         - Mapa adyacente
-    - Familiarícese con cada representación y sus pros y contras
-    - BFS and DFS – Conozca su complejidad computacional, sus compromisos y cómo implementarlos en código real
+    - Familiarícese con cada representación y sus pros y contras.
+    - BFS and DFS – Conozca su complejidad computacional, sus compromisos y cómo implementarlos en código real.
     - Cuando se le haga una pregunta busqué una solución basada en grafos, si no encuentra continúe.
 
 - [ ] Lecturas de Skiena – Gran introducción):
@@ -861,10 +861,10 @@ Los grafos pueden ser usados para representar muchos problemas en las Ciencias d
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
 - Implementaré:
-    - [ ] DFS con lista de adyacencia (recursión)
-    - [ ] DFS con la lista de adyacencia (iterativa con la pila)
-    - [ ] DFS con matriz de adyacencia (recursión)
-    - [ ] DFS con matriz de adyacencia (iterativa con pila)
+    - [ ] DFS con lista de adyacencia (recursión).
+    - [ ] DFS con la lista de adyacencia (iterativa con la pila).
+    - [ ] DFS con matriz de adyacencia (recursión).
+    - [ ] DFS con matriz de adyacencia (iterativa con pila).
     - [ ] BFS con lista de adyacencia
     - [ ] BFS con matriz de adyacencia
     - [ ] Ruta de acceso de una sola fuente más corta (Dijkstra)
@@ -886,7 +886,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - Cuando es apropiado usarlo
+    - Cuando es apropiado usarlo.
     - ¿Cómo es la recursión de cola mejor que no?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
@@ -895,7 +895,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - Este tema puede ser bastante difícil, ya que cada problema soluble PD debe definirse como una relación de recursión, y llegar a ella puede ser complicado.
      - Sugiero que busque muchos ejemplos de problemas de PD hasta que tenga una comprensión sólida del patrón involucrado.
     - [ ] Videos:
-        - Los videos de Skiena pueden ser duros de seguir ya que a veces usa el pizarrón que es demasiado pequeño para ver
+        - Los videos de Skiena pueden ser duros de seguir ya que a veces usa el pizarrón el cual es demasiado pequeño para ver.
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
         - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
@@ -1008,7 +1008,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 
 - ### Procesos e hilos
     - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - Para los procesos e hilos vea los videos 1-11
+        - Para los procesos e hilos vea los videos 1-11.
         - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
     - Cubre:
@@ -1023,14 +1023,14 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
              - Cómo trabajan ellos
              - Bloqueo
              - Livelock
-        - Actividad de CPU, interrupciones, conmutación de contexto
-        - Moderna concurrencia construida con procesadores multinúcleo
+        - Actividad de CPU, interrupciones, conmutación de contexto.
+        - Moderna concurrencia construida con procesadores multinúcleo.
         - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
         - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
         - [Scheduling (video)](https://www.youtube.com/watch?v=-Gu5mYdKbu4&index=4&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8)
         - Necesidades de recursos de proceso (memoria: código, almacenamiento estático, pila, monticulo y también descriptores de archivo, i /o)
         - Necesidades de recursos de hilos (partes anteriores (menos pila) con otros hilos en el mismo proceso, pero cada uno tiene su propio PC, contador de pila, registros y pila)
-        - Bifurcación es realmente copia en escritura (sólo lectura) hasta que el nuevo proceso escribe en memoria, entonces hace una copia completa.
+        - Bifurcación es realmente copia en escritura (sólo lectura) hasta que el nuevo proceso escriba en memoria, entonces hace una copia completa.
         - Cambio de contexto
             - Cómo se inicia el cambio de contexto por el sistema operativo y el hardware subyacente
     - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
@@ -1049,7 +1049,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
         - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
     - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-        - Remplazado por Colossus en 2012
+        - Remplazado por Colossus en 2012.
     - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
         - ¿Casi totalmente remplazado por Cloud Dataflow?
     - [ ] [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
@@ -1061,7 +1061,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
     - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-        - Documento no disponible
+        - Documento no disponible.
     - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
         - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
         - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
@@ -1077,7 +1077,7 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
 
 - ### Pruebas
     - A cubrir:
-        - Cómo funciona la prueba unitaria
+        - Cómo funciona la prueba unitaria.
         - ¿Qué son objetos simulados?
         - ¿Qué es la prueba de integración?
         - ¿Qué es la inyección de dependencia?
@@ -1095,8 +1095,8 @@ Obtendrá más práctica de grafos en el libro de Skiena (vea Sección de libros
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Planificador
-    - En un SO, Como funciona
-    - Se pueden obtener de los videos del sistema operativo
+    - En un SO, Como funciona.
+    - Se pueden obtener de los videos del sistema operativo.
 
 - ### Implementar rutinas del sistema
     - Entienda lo que hay debajo de las API de programación que usa
