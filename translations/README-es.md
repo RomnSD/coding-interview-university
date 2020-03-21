@@ -2,10 +2,10 @@
 
 - Versión original: [Inglés](README.md)
 
-> Originalmente creé esto como una lista corta de tópicos a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista puede apreciar actualmente. Después de pasar por este plan de estudios ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon!(Art. Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
+> Originalmente creé esto como una lista corta de tópicos a estudiar para volverse un Ingeniero de Software, pero creció hasta ser la gran lista que puede apreciar actualmente. Después de pasar por este plan de estudios ¡[fui contratado como Ingeniero de Desarrollo de Software en Amazon!(Art. Inglés)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
 
 
-> Posiblemente no tenga que estudiar mucho como yo. De cualquier forma todo lo que necesita esta aquí.
+> Posiblemente no tenga que estudiar mucho como yo. De cualquier forma todo lo que necesita está aquí.
 >
 > Los elementos listados aquí le prepararan bien para una entrevista en cualquier compañía de software, incluyendo a los gigantes: Amazon, Facebook, Google o Microsoft.
 >
@@ -54,7 +54,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 - [¿Qué es esto?](#qué-es-esto)
 - [¿Por qué usarlo?](#por-qué-usarlo)
 - [Como usarlo](#como-usarlo)
-- [No sienta no es lo suficientemente listo](#no-sienta-no-es-lo-suficientemente-listo)
+- [No sienta que no es lo suficientemente listo](#no-sienta-que-no-es-lo-suficientemente-listo)
 - [Acerca de los recursos de vídeo](#acerca-de-los-recursos-de-vídeo)
 - [Prepárese para la entrevista](#prepárese-para-la-entrevista)
 - [Escoja un lenguaje para la entrevista](#escoja-un-lenguaje-para-la-entrevista)
@@ -63,7 +63,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 - [Lo que no verá cubierto](#lo-que-no-verá-cubierto)
 - [El plan diario](#el-plan-diario)
 - [Conocimientos Previos](#conocimientos-previos)
-- [Complejidad algorítmica / Big-O / Análisis asintótico](#complejidad-algorítmica-big-o-análisis-asintótico)
+- [Complejidad algorítmica / Big-O / Análisis asintótico](#complejidad-algorítmica--big-O--análisis-asintótico)
 - [Estructuras de datos](#estructuras-de-datos)
     - [Arreglos](#arreglos)
     - [Listas Enlazadas](#listas-enlazadas)
@@ -72,7 +72,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
     - [Matriz asociativa](#matriz-asociativa)
 - [Información adicional](#información-adicional)
     - [Búsqueda binaria](#búsqueda-binaria)
-    - [Operaciones bit a bit](#operaciones-bit-bit)
+    - [Operaciones bit a bit](#operaciones-bit-a-bit)
 - [Árboles](#árboles)
     - [Árboles - Notas & Antecedentes](#árboles---notas--antecedentes)
     - [Árboles de búsqueda binaria: BSTs](#árboles-de-búsqueda-binaria-bsts)
@@ -112,7 +112,7 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 - [Redes](#redes)
 - [Diseño del Sistema, Escalabilidad, Manejo de Datos](#diseño-del-sistema-escalabilidad-manejo-de-datos) (Si tiene más de 4 años de experiencia)
 - [Revisión final](#revisión-final)
-- [Practica de preguntas de codificación](#practica-de-preguntas-de-codificación)
+- [Práctica de preguntas de codificación](#práctica-de-preguntas-de-codificación)
 - [Ejercicios de codificación/Desafíos](#ejercicios-de-codificación-desafíos)
 - [Una vez cerca de la entrevista](#una-vez-cerca-de-la-entrevista)
 - [Su CV](#su-cv)
@@ -172,8 +172,6 @@ Si desea ser un Ingeniero de Escalabilidad/Seguridad o un Ingeniero de Sistemas,
 
 Cuando comencé este proyecto, no sabía la diferencia entre un stack y un heap, no conocía la notación Big-O, nada acerca de árboles, ni cómo sacar la transversal de una gráfica. Si tenía que programar un algoritmo de clasificación, puedo decir que no hubiera sido muy bueno. Cada estructura de datos que había utilizado estaba incorporada al lenguaje, y yo no sabía cómo funcionaban realmente. Yo nunca tuve que manejar la memoria a menos que un proceso que yo estaba corriendo diera un error de “out of memory”, y tenía que encontrar una alternativa. He usado pocos arreglos de varias dimensiones en mi vida y miles de arreglos asociativos, pero nunca he creado estructuras de datos desde cero.
 
-Pero después de pasar por todo este plan de estudios tengo mucha confianza de que seré contratado. Me toará meses. Si mucho de esto te resulta familiar entonces te tomará mucho menos tiempo.
-
 Es un plan largo, puede tome unos meses; pero si le resulta familiar mucho de esto le tomara mucho menos tiempo.
 
 ## Como usarlo
@@ -185,7 +183,7 @@ Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas
 **Cree una nueva rama para que pueda validar elementos como este, solo ponga una x en los corchetes: [x]**
 
 
-    Haga fork a una rama y siga los comandos siguientes
+    Haga fork a una rama y siga los comandos siguientes.
 
 `git checkout -b progress`
 
@@ -193,7 +191,7 @@ Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas
 
 `git fetch --all`
 
-    Marque todas las cajas con una x después de que completa los cambios
+    Marque todas las casillas con una x después de que complete los cambios.
 
 `git add . `
 
@@ -249,13 +247,15 @@ También podrías usar éstos, pero busca información primero. Puede haber adve
 - JavaScript
 - Ruby
 
+Aquí está un artículo que escribí sobre la elección de un lenguaje para la entrevista: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
+
 Debes sentirte muy cómodo con el lenguaje y ser experto.
 
-Lee más acerca de opciones:
+Lea más acerca de las opciones:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-[Ve recursos de programas aquí](programming-language-resources.md)
+[Vea los recursos de lenguajes aquí](programming-language-resources.md)
 
 Verás algunos materiales de aprendizaje de C, C++ y Python abajo, porque estoy aprendiendo. Hay algunos libros involucrados, ve al final.
 
@@ -265,13 +265,15 @@ Verás algunos materiales de aprendizaje de C, C++ y Python abajo, porque estoy 
 
 ### Preparación para la entrevista
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - Respuestas en C++ y Java
-    - Este es un buen calentamiento para Cracking the Coding Interview
-    - No muy difícil, muchos problemas pueden ser más sencillos de los que verá en la entrevista (Por lo que he leído)
+    - Respuestas en C++ y Java.
+    - Este es un buen calentamiento para Cracking the Coding Interview.
+    - No es muy difícil, muchos problemas pueden ser más sencillos de los que verá en la entrevista (Por lo que he leído).
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - Respuestas en Java
+    - Respuestas en Java.
 
 Si tiene mucho tiempo extra:
+
+Elija uno:
 
 - [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] Elements of Programming Interviews (Java version)
@@ -280,7 +282,7 @@ Si tiene mucho tiempo extra:
 
 ### Arquitectura de Computadores
 
-Si esta corto de tiempo:
+Si está corto de tiempo:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - El libro fue publicado en 2004, y es algo anticuado pero es un recurso fantástico para la comprensión de una computadora en breve.
@@ -329,41 +331,41 @@ Si tiene una mejor recomendación para C++ por favor hágamelo saber. Busco fuen
 O:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - Por Goodrich, Tamassia, Goldwasser
-    - Usado como texto opcional en el curso de Informática impartido en UC Berkeley
+    - Por Goodrich, Tamassia, Goldwasser.
+    - Usado como texto opcional en el curso de Informática impartido en UC Berkeley.
     - Vea mi reporte de la versión de Python debajo. Este libro abarca los mismos tópicos.
 
 ### Python
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - Por Goodrich, Tamassia, Goldwasser
-    - Ame este libro. Cubre todo y más.
-    - Código Pythonioco
-    - Mi brillante reporte del libro : https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+    - Por Goodrich, Tamassia, Goldwasser.
+    - Amé este libro. Cubre todo y más.
+    - Código Pythonioco.
+    - Mi brillante reporte del libro: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 
 ### Libros Opcionales
 
-**Algunas personas recomiendan estos pero creo exageran, a menos que tenga muchos años de experiencia en Ingeniería de Software y espere una entrevista mucho más difícil:**
+**Algunas personas recomiendan estos pero creo que exageran, a menos que tenga muchos años de experiencia en Ingeniería de Software y espere una entrevista mucho más difícil:**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - Como un resumen y un reconocimiento de problemas
+    - Como un resumen y un reconocimiento de problemas.
     - La porción del catálogo de algoritmos está más allá del alcance de la dificultad que obtendrá en una entrevista.
     - Este libro consta de dos partes:
-        - Libro de clase sobre estrcutura de datos y algoritmos
+        - Libro de clase sobre estructura de datos y algoritmos
             - Pros:
-                - Es un buen resumen como cualquier libro de algoritmos debe ser
-                - Buenas historias de sus experiencias resolviendo problemas en la industria y en la academia
-                - Ejemplos codificados en C
+                - Es un buen resumen como cualquier libro de algoritmos debe de ser.
+                - Buenas historias de sus experiencias resolviendo problemas en la industria y en la academia.
+                - Ejemplos codificados en C.
             - Cons:
-                - Puede ser así de denso o impenetrable como los CLRS, en algunos casos, los CLRS pueden proveer una mejor alternativa para algunos temas
-                - Capítulos 7, 8, 9 pueden ser un martirio intentar darles seguimiento, ya que no están bien explicados o requieren más cerebro del que tengo
+                - Puede ser así de denso o impenetrable como los CLRS, en algunos casos, los CLRS pueden proveer una mejor alternativa para algunos temas.
+                - Capítulos 7, 8, 9 pueden ser un martirio intentar darles seguimiento, ya que no están bien explicados o requieren más cerebro del que tengo.
                 - No me malentiendan: Me gusta Skiena, su estilo de enseñanza y manierismos, pero no puedo ser material de Stony Brook.
         - Catálogo de algoritmos:
             - Es la verdadera razón para comprar el libro.
-            - Actualizare esto, una vez haya pasado por este.
-    - Se puede rentar en Kindle
-    - Half.com es  un gran recurso para libros de textos a buen precio.
+            - Actualizaré esto, una vez haya pasado por este.
+    - Se puede rentar en Kindle.
+    - Half.com es un gran recurso para libros de textos a buen precio.
     - Respuestas:
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
@@ -372,7 +374,7 @@ O:
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
     - **Importante:** Leer este libro tendrá un valor limitado. Este libro es un buen resumen de algoritmos y estructuras de datos, pero no le enseñará como escribir un buen código. Necesita ser capaz de codificar una solución decente eficientemente.
     - Half.com es un buen recurso para libros a buenos precios.
-    - Aka CLR, a veces CLRS, porque Stein llego tarde al juego
+    - Aka CLR, a veces CLRS, porque Stein llego tarde al juego.
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
     - El primer par de capítulos presentan soluciones inteligentes a problemas de programación (algunos muy antiguos con cinta de datos) pero solo es una introducción. Esta es una guía sobre el diseño y la arquitectura del programa, como Code Complete, pero mucho más corto.
@@ -401,7 +403,7 @@ Lea por favor para que no cometa mis errores:
 Para solucionar el problema construí un pequeño sitio de tarjetas para recordar donde podía añadir tarjetas de dos tipos: general y código.
 Cada tarjeta tiene distinto formato.
 
-Hice un sitio adaptado a moviles para revisarlo en mi celular y en mi Tablet, donde quiera estuviera.
+Hice un sitio adaptado a moviles para revisarlo en mi celular y en mi Tablet, donde quiera que estuviera.
 
 Haga el suyo gratis:
 
@@ -411,17 +413,17 @@ Haga el suyo gratis:
 
 Tenga en cuenta que empecé desde abajo y hay tarjetas que cubren todo, desde el lenguaje ensamblador y la trivia Python al Machine Learning y estadísticas. Es demasiado para lo que se requiere.
 
-**Nota en las tarjetas:** La primera vez reconozca sabe la respuesta, no marque como conocido; necesita contestar muchas veces correctamente antes de que en realidad lo sepa. La repetición pondrá ese conocimiento de forma más profunda en su cerebro.
+**Nota en las tarjetas:** La primera vez que reconozca que sabe la respuesta, no marque como conocido; necesita contestar muchas veces correctamente antes de que en realidad lo sepa. La repetición pondrá ese conocimiento de forma más profunda en su cerebro.
 
 Una alternativa a usar mi sitio de tarjetas es [Anki](http://ankisrs.net/), que me ha sido recomendado muchas veces. Usa un sistema de repetición para ayudarle a recordar. Es amigable con el usuario y disponible para todas las plataformas y tiene un sistema de sincronización en la nube. Cuesta $25 en iOS pero es gratuito en las otras plataformas.
 
-Mis tarjetas en ek formato de Anki: https://ankiweb.net/shared/info/25173560 (Gracias[@xiewenya](https://github.com/xiewenya))
+Mis tarjetas en ek formato de Anki: https://ankiweb.net/shared/info/25173560 (Gracias [@xiewenya](https://github.com/xiewenya))
 
 ### 3. Revise, revise, revise
 
-Mantuve una serie de hojas clave en ASCII, OSI stack, notación Big-O y más. Las estudie cuando tenía tiempo libre.
+Mantuve una serie de hojas clave en ASCII, OSI stack, notación Big-O y más. Las estudié cuando tenía tiempo libre.
 
-Tome un descanso de los problemas de programación por media hora y repase sus tarjetas.
+Tome un descanso de los problemas de programación por media hora y repasé sus tarjetas.
 
 ### 4. Enfóquese
 
@@ -439,23 +441,23 @@ Estas son tecnologías predominantes, pero no están cubiertas por este plan de 
 
 Algunos temas tomarán un día y otros tomarán varios. Algunos son solo para aprender sin nada que implementar.
 
-Cada día yo tomé un tema de los siguientes, vi videos sobre el tema y escribía una implementación:
+Cada día tomé un tema de los siguientes, ví vídeos sobre el tema y escribía una implementación:
 
 - C - usando estructuras y funciones que toman una estructura * y otra cosa como argumentos.
-- C++ - sin utilizar tipos incorporados
-- C++ - usando tipos incorporados, como std::list de STL para una lista enlazada
-- Python - usando tipos incorporados (para seguir practicando Python)
-- y escribir pruebas para asegurarme de que lo estoy haciendo bien, a veces simplemente usando simples declaraciones assert()
-- Puede hacer Java o algo más, esto es solo lo mío.
+- C++ - sin utilizar tipos incorporados.
+- C++ - usando tipos incorporados, como std::list de STL para una lista enlazada.
+- Python - usando tipos incorporados (para seguir practicando Python).
+- y escribir pruebas para asegurarme de que lo estoy haciendo bien, a veces simplemente usando simples declaraciones assert().
+- Puede ser Java o algo más, esto es solo lo mío.
 
 No necesita todo esto. Solo necesita [un lenguaje para la entrevista](#escoja-un-lenguaje-para-la-entrevista).
 
-¿Por qué codificar en todo esto?
-- Práctica, práctica, práctica… hasta que me canse de ello y pueda hacerlo sin ningún problema (algunos usan técnicas y marcadores para recordar)
-- Trabajar dentro de las restricciones primarias (asignar / liberar memoria sin ayuda del garbage collection (excepto Python))
-- Hacer uso de los tipos incorporados para que tenga experiencia usando las herramientas de tipos incorporados para su uso en el mundo real (no escribiré mi propia implementación de listas enlazadas en producción)
+¿Porqué codificar en todo esto?
+- Práctica, práctica, práctica… hasta que me canse de ello y pueda hacerlo sin ningún problema (algunos usan técnicas y marcadores para recordar).
+- Trabajar dentro de las restricciones primarias (asignar / liberar memoria sin ayuda del garbage collection (excepto Python)).
+- Hacer uso de los tipos incorporados para que tenga experiencia usando las herramientas de tipos incorporados para su uso en el mundo real (no escribiré mi propia implementación de listas enlazadas en producción).
 
-Puede que no tenga tiempo de hacer todo esto para cada tema, pero lo intentare.
+Puede que no tenga tiempo de hacer todo esto para cada tema, pero lo intentaré.
 
 Puede ver mi código aquí:
  - [C](https://github.com/jwasham/practice-c)
@@ -516,36 +518,36 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] Implemente un vector (Arreglo mutable con redimensionamiento automático):
         - [ ] Practique codificar usando arreglos y apuntadores, y un apuntador matemático para saltar a un índice en lugar de utilizar la indexación.
-        - [ ] Nueva arreglo de información primaria con memoria asignada
-            - Puede asignar un arreglo entero, simplemente no use sus características
+        - [ ] Nuevo arreglo de información primaria con memoria asignada.
+            - Puede asignar un arreglo entero, simplemente no use sus características.
             - Empiece con 16, o si el número inicial es mayor, use potencias del 2 - 16, 32, 64, 128
-        - [ ] size() – Número de elementos
-        - [ ] capacity() – Número de elementos soportados
+        - [ ] size() – Número de elementos.
+        - [ ] capacity() – Número de elementos soportados.
         - [ ] is_empty()
-        - [ ] at(index) – Regresa el elemento al índice dado, falla si el índice esta fuera de sus limites
+        - [ ] at(index) – Regresa el elemento al índice dado, falla si el índice esta fuera de sus limites.
         - [ ] push(item)
-        - [ ] insert(index, item) – Inserta el elemento en el índice, intercambia el valor del índice y desplaza los elementos a la derecha
-        - [ ] prepend(item) – Puede usar para insertar encima del índice 0
-        - [ ] pop() – Elimina del final, regresa el valor
-        - [ ] delete(index) – Elimina el elemento en el índice, intercambia todos desplazándolos a la izquierda
-        - [ ] remove(item) – Busca el valor y elimina el índice lo contiene(aunque este en varios lugares)
-        - [ ] find(item) – Busca el valor y regresa el primer índice con ese valor, -1  si no encuentra
+        - [ ] insert(index, item) – Inserta el elemento en el índice, intercambia el valor del índice y desplaza los elementos a la derecha.
+        - [ ] prepend(item) – Se puede usar para insertar por encima del índice 0.
+        - [ ] pop() – Elimina del final, regresa el valor.
+        - [ ] delete(index) – Elimina el elemento en el índice, intercambia todos desplazándolos a la izquierda.
+        - [ ] remove(item) – Busca el valor y elimina el índice que lo contiene(aunque esté en varios lugares).
+        - [ ] find(item) – Busca un valor y regresa el primer índice con ese valor, -1  si no encuentra.
         - [ ] resize(Nueva capacidad) // Función privada
-            - Cuando alcance el límite, redimensiona al doble el tamaño
-            - Cuando se haga “pop” a un elemento, si el tamaño es 1/4 de la capacidad, redimensiona a la mitad
+            - Cuando alcance el límite, redimensiona al doble el tamaño.
+            - Cuando se haga “pop” a un elemento, si el tamaño es 1/4 de la capacidad, redimensiona a la mitad.
     - [ ] Tiempo
-        - O(1) Para añadir/eliminar al final (Amortizado para asignaciones por más espacio), índice o actualización
-        - O(n) Para insertar/eliminar donde sea
+        - O(1) Para añadir/eliminar del final (Amortizado para asignaciones por más espacio), índice o actualización.
+        - O(n) Para añadir/eliminar donde sea.
     - [ ] Espacio
-        - Contiguo en la memoria, por lo que la proximidad ayuda al rendimiento
-        - Espacio necesario = (capacidad de matriz, que es> = n) * tamaño del elemento, pero incluso si 2n, todavía O (n))
+        - Contiguo en la memoria, por lo que la proximidad ayuda al rendimiento.
+        - Espacio necesario = (capacidad de matriz, que es >= n) * tamaño del elemento, pero incluso si 2n, todavía O (n)).
 
 - ### Listas Enlazadas
     - [ ] Descripción:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - No todo el video, solo porciones acerca de la estructura de nodos y la asignación de memoria.
+            - No todo el vídeo, solo porciones acerca de la estructura de nodos y la asignación de memoria.
     - [ ] Listas enlazadas vs Arreglos:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
@@ -555,23 +557,23 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         Esta página es sólo para tener una idea sobre un apuntador a un apuntador. No recomiendo esta lista de estilo transversal. La legibilidad y sostenibilidad sufren debido a la astucia.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Implemente (Lo hice con y sin un puntero de cola):
-        - [ ] size() – Regresa el número de elementos en la lista
-        - [ ] empty() – Un bool que regresa verdadero si está vacío
-        - [ ] value_at(index) – Regresa el valor  del el n-avo elemento (iniciando con el  0 como primero)
-        - [ ] push_front(value) – Añade un elemento al frente de la lista
-        - [ ] pop_front() – Elimina el elemento frontal y regresa su valor
-        - [ ] push_back(value) – Añade un elemento al final
-        - [ ] pop_back() – Elimina el último elemento y devuelve su valor
-        - [ ] front() – Obtiene el valor del elemento frontal
-        - [ ] back() – Obtiene el valor del último elemento
-        - [ ] insert(index, value) – Inserta valor en el índice, por lo que el valor actual en ese índice es apuntado al nuevo elemento en el índice
-        - [ ] erase(index) – Borra el nodo del índice dado
-        - [ ] value_n_from_end(n) – Regresa el valor del nodo en la n-ava posición a partir del final de la lista
-        - [ ] reverse() – Pone al revés toda la lista
-        - [ ] remove_value(value) – Borra el primer elemento en la lista con ese valor
+        - [ ] size() – Regresa el número de elementos en la lista.
+        - [ ] empty() – Un bool que regresa verdadero si está vacío.
+        - [ ] value_at(index) – Regresa el valor del el n-avo elemento (iniciando con el  0 como primero).
+        - [ ] push_front(value) – Añade un elemento al frente de la lista.
+        - [ ] pop_front() – Elimina el elemento frontal y regresa su valor.
+        - [ ] push_back(value) – Añade un elemento al final.
+        - [ ] pop_back() – Elimina el último elemento y devuelve su valor.
+        - [ ] front() – Obtiene el valor del elemento frontal.
+        - [ ] back() – Obtiene el valor del último elemento.
+        - [ ] insert(index, value) – Inserta valor en el índice, por lo que el valor actual en ese índice es apuntado al nuevo elemento en el índice.
+        - [ ] erase(index) – Borra el nodo del índice dado.
+        - [ ] value_n_from_end(n) – Regresa el valor del nodo en la n-ava posición a partir del final de la lista.
+        - [ ] reverse() – Pone al revés toda la lista.
+        - [ ] remove_value(value) – Borra el primer elemento en la lista con ese valor.
     - [ ] Doble lista enlazada
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No es necesario
+        - No es necesario.
 - ### Pila
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
@@ -583,20 +585,20 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
     - [ ] Implementar usando listas enlazadas, con el puntero de la cola:
-        - enqueue(value) – Añade el valor en la posición de la cola
-        - dequeue() – Regresa el valor y elimina el valor más recientemente añadido(frontal)
+        - enqueue(value) – Añade el valor en la posición de la cola.
+        - dequeue() – Regresa el valor y elimina el valor más recientemente añadido(frontal).
         - empty()
     - [ ] Implementar usando arreglos de tamaño fijo:
-        - enqueue(value) – Añade elemento al final del almacenamiento disponible
-        - dequeue() – Regresa el valor y elimina el elemento más recientemente añadido
+        - enqueue(value) – Añade elemento al final del almacenamiento disponible.
+        - dequeue() – Regresa el valor y elimina el elemento más recientemente añadido.
         - empty()
         - full()
     - [ ] Costo:
-        - Una mala implementación usando lista enlazada donde se enqueue en la cabeza y dequeue en la cola sería O (n)
-             Porque usted necesitaría el siguiente al último elemento, causando un recorrido completo cada dequeue
-        - enqueue: O(1) (amortizado, Lista enlazada y arreglo [sondaje])
-        - dequeue: O(1) (Lista enlazada y arreglo)
-        - empty: O(1) (Lista enlazada y arreglo)
+        - Una mala implementación usando lista enlazada donde se enqueue en la cabeza y dequeue en la cola sería O(n)
+             porque usted necesitaría el siguiente al último elemento, causando un recorrido completo cada dequeue.
+        - enqueue: O(1) (amortizado, lista enlazada y arreglo [sondaje]).
+        - dequeue: O(1) (lista enlazada y arreglo).
+        - empty: O(1) (lista enlazada y arreglo).
 
 - ### Matriz asociativa
     - [ ] Videos:
@@ -620,8 +622,8 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
     - [ ] Implementar con arreglo usando sondaje lineal
-        - hash(k, m) - m es el tamaño de la matriz asociativa
-        - add(key, value) – Si la llave ya existe , actualiza el valor
+        - hash(k, m) - m es el tamaño de la matriz asociativa.
+        - add(key, value) – Si la llave ya existe, actualiza el valor.
         - exists(key)
         - get(key)
         - remove(key)
@@ -632,11 +634,11 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
     - [ ] Implementar:
-        - Búsqueda binaria (en un arreglo ordenado de enteros)
-        - Búsqueda binaria usando recursión
+        - Búsqueda binaria (en un arreglo ordenado de enteros).
+        - Búsqueda binaria usando recursión.
 
 - ### Operaciones bit a bit
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32).
     - [ ] Obtenga un buen entendimiento de la manipulación de bits con: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Buena introducción:
@@ -647,11 +649,11 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
         - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
-    - [ ] Complemento a uno y dos
+    - [ ] Complemento a uno y dos:
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
         - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] Contar bits puestos
+    - [ ] Contar bits puestos:
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
@@ -688,7 +690,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 - ### Árboles de búsqueda binaria: BSTs
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
-        - Comienza con la tabla de símbolos y pasa por las aplicaciones BST
+        - Comienza con la tabla de símbolos y pasa por las aplicaciones BST.
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
@@ -703,17 +705,17 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Implementar:
-        - [ ] insert    // Inserta valores en el árbol
-        - [ ] get_node_count // Obtener la cuenta de los valores almacenados
-        - [ ] print_values // Imprime los valores en el árbol, del min al max
+        - [ ] insert    // Inserta valores en el árbol.
+        - [ ] get_node_count // Obtener la cuenta de los valores almacenados.
+        - [ ] print_values // Imprime los valores en el árbol, del mínimo al máximo.
         - [ ] delete_tree
-        - [ ] is_in_tree // Devuelve verdadero si el valor dado existe en el árbol
-        - [ ] get_height // Regresa la altura en los nodos (La altura de cada nodo es 1)
-        - [ ] get_min   // Regresa el valor mínimo almacenado en el árbol
-        - [ ] get_max   // Regresa el valor máximo almacenado en el árbol
+        - [ ] is_in_tree // Devuelve verdadero si el valor dado existe en el árbol.
+        - [ ] get_height // Regresa la altura en los nodos (La altura de cada nodo es 1).
+        - [ ] get_min   // Regresa el valor mínimo almacenado en el árbol.
+        - [ ] get_max   // Regresa el valor máximo almacenado en el árbol.
         - [ ] is_binary_search_tree
         - [ ] delete_value
-        - [ ] get_successor // Regresa el siguiente valor más alto en el árbol después del valor dado,-1 si ninguno
+        - [ ] get_successor // Regresa el siguiente valor más alto en el árbol después del valor dado,-1 si no hay ning.
 
 - ### Montículo / Colas de Prioridad / Montículo binario
     - Visto como un árbol, pero usualmente es lineal en el almacenamiento (arreglo, lista enlazada)
